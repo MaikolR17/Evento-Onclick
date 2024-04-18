@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Shantell Sans", cursive;
+    font-style: normal;
+}
+
+.contenedor{
+    width: 632px;
+}
+
+.navegador{
+    width: 632px;
+    height: 60px;
+    background-color: #CCCCCC ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textoDojonary{
+   margin-left: 20px; 
+}
+
+#search{
+    width: 300px;
+    height: 25px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+::placeholder{
+    font-family: "Shantell Sans", cursive;
+    font-style: normal;
+    padding: 5px;
+}
+
+.botonLogin{
+    font-family: "Shantell Sans", cursive;
+    font-style: normal;
+    color: white;
+    background-color: #2B78E4;
+    margin-right: 20px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    width: 70px;
+    height: 25px;
+}
+.contenido{
+    width: 632px;
+    display: flex;
+    flex-direction: row;
+}
+
+.izquierda{
+    display: flex;
+    flex-direction: column;
+}
+
+.derecha{
+    box-sizing: border-box;
+    width: 232px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.dojonary1{
+    box-sizing: border-box;
+    width: 400px;
+    border: 3px solid black;
+    margin-top: 20px;
+    display: flex;
+}
+
+.col_Izq{
+    box-sizing: border-box;
+    width: 120px;
+    margin: 15px 0px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.plural{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.likes{
+    font-family: "Shantell Sans", cursive;
+    font-style: normal;
+    margin-top: 15px;
+    width: 80px;
+    height: 30px;
+    background-color: #FFD966;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 2px;
+    box-shadow: 3px 3px black;
+}
+
+.col_Der{
+    box-sizing: border-box;
+    width: 280px;
+    margin: 15px 10px 15px 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parrafo{
+    font-size: 17px;
+}
+
+.dojonary_Add{
+    width: 200px;
+    height: 130px;
+    border: 3px solid black;
+    margin: 20px 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.definedByYou{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.addDefinition{
+    font-family: "Shantell Sans", cursive;
+    font-style: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 170px;
+    height: 30px;
+    background-color: #93C47D;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 2px;
+    box-shadow: 3px 3px black;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Onclick</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="navegador">
+            <div class="tituloDojonary"> 
+                <h1 class="textoDojonary"> Dojonary </h1>
+            </div>
+            <div>
+                <form>
+                    <div>
+                        <input type="text" id="search" placeholder="Search">
+                    </div>
+                </form>
+            </div>
+            <div class="login">
+                <button class="botonLogin" onclick="turnLogout(this)"> Login </button>
+            </div>
+        </div>
+        <div class="contenido">
+            <div class="izquierda">
+                <div class="dojonary1">
+                    <div class="col_Izq"> 
+                        <h1 class="ninja"> ninja </h1>
+                        <h4 class="noun"> noun </h4>
+                        <h4 class="plural"> Plural: ninjas </h4>
+                        <button class="likes" onclick="alert('ninja was like')"> 13 likes </button>
+                    </div>
+                    <div class="col_Der"> 
+                        <p class="parrafo"> A practitioner skilled in the <a href="#"> Japanese</a> art of <a href="#">ninjutsu</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="dojonary1">
+                    <div class="col_Izq"> 
+                        <h1 class="ninja"> ninja </h1>
+                        <h4 class="noun"> noun </h4>
+                        <h4 class="plural"> Plural: ninjas </h4>
+                        <button class="likes" onclick="alert('ninja was like')"> 37 likes </button>
+                    </div>
+                    <div class="col_Der"> 
+                        <p class="parrafo"> A <a href="#"> programmer</a> who breaks down problems with  <a href="#"> zen</a>-like focus
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="derecha">
+               <div class="dojonary_Add">
+                    <h2 class="definedByYou"> Dojonary is defined by YOU </h2>
+                    <button class="addDefinition" onclick="remover(this)"> Add Definition </button>
+               </div> 
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
